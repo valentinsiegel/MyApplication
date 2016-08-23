@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
         //bla
         //bop
         super.onCreate(savedInstanceState);
-        ((TextView) findViewById(R.id.test)).setText("de");
+
         setContentView(R.layout.activity_main);
+        ((TextView) findViewById(R.id.test)).setText("de");
     }
 }
